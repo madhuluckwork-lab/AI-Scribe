@@ -1,0 +1,8 @@
+mobile/
+.next/
+node_modules/
+public/uploads/
+.env*
+!.env.example
+.DS_Store
+coverage/
