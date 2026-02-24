@@ -65,7 +65,7 @@ export default async function NotesPage({ searchParams }: Props) {
             {totalCount} note{totalCount !== 1 ? "s" : ""} total
           </p>
         </div>
-        <Button asChild className="bg-orange-500 hover:bg-orange-600">
+        <Button asChild className="bg-[#F4891F] hover:bg-[#d97a1a]">
           <Link href="/record">
             <Mic className="mr-2 h-4 w-4" />
             New Recording
@@ -120,7 +120,7 @@ export default async function NotesPage({ searchParams }: Props) {
               : "Start your first recording to generate clinical notes."}
           </p>
           {!search && (
-            <Button asChild className="mt-4 bg-orange-500 hover:bg-orange-600">
+            <Button asChild className="mt-4 bg-[#F4891F] hover:bg-[#d97a1a]">
               <Link href="/record">
                 <Mic className="mr-2 h-4 w-4" />
                 Start Recording
